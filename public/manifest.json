@@ -1,0 +1,49 @@
+{
+  "name": "34金币时间管理系统",
+  "short_name": "金币时间",
+  "description": "基于努尔艾力·阿不利孜的34金币时间管理法",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#4CAF50",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icons/icon-180x180.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "今日金币",
+      "short_name": "今日",
+      "description": "查看今日时间金币",
+      "url": "/",
+      "icons": [{ "src": "/icons/icon-96x96.png", "sizes": "96x96" }]
+    },
+    {
+      "name": "统计分析",
+      "short_name": "分析",
+      "description": "查看时间使用统计",
+      "url": "/analysis",
+      "icons": [{ "src": "/icons/icon-96x96.png", "sizes": "96x96" }]
+    }
+  ],
+  "categories": ["productivity", "lifestyle", "utilities"],
+  "lang": "zh-CN",
+  "dir": "ltr"
+}

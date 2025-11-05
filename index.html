@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>34金币时间管理系统</title>
+  <meta name="description" content="基于努尔艾力·阿不利孜的34金币时间管理法，帮助您科学分配每日时间资源">
+  <meta name="theme-color" content="#4CAF50">
+  <link rel="apple-touch-icon" href="/icons/icon-192x192.png">
+  <link rel="manifest" href="/manifest.json">
+  <script type="module" crossorigin src="/assets/index-D-gZm45R.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-CEDbWS7G.css">
+</head>
+<body>
+  <div id="app"></div>
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('/sw.js')
+          .then(registration => {
+            console.log('SW registered: ', registration);
+          })
+          .catch(registrationError => {
+            console.log('SW registration failed: ', registrationError);
+          });
+      });
+    }
+  </script>
+</body>
+</html>
